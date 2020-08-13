@@ -4,7 +4,7 @@ interface CountdownProps {
   targetDate: string
  }
 
-const Countdown: StorefrontFunctionComponent<CountdownProps> = ({ }) => {
+const Countdown: StorefrontFunctionComponent<CountdownProps> = ({ targetDate }) => {
   return (
          <div>
          <h1>{ targetDate }</h1>
